@@ -47,6 +47,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.koin.core)
     implementation(libs.koin.android)
     implementation(libs.koin.android.navigation)
     implementation(libs.okhttp)
@@ -59,4 +60,5 @@ dependencies {
 
     testImplementation(libs.junit)
     testImplementation(libs.koin.test)
+    testImplementation(libs.koin.test.junit4)
 }

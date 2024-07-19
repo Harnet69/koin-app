@@ -27,9 +27,11 @@ androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navi
 androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 detekt-formatting = { module = "io.gitlab.arturbosch.detekt:detekt-formatting", version.ref = "detekt" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
+koin-core = { module = "io.insert-koin:koin-core", version.ref = "koinAndroid" }
 koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinAndroid" }
 koin-android-navigation = { module = "io.insert-koin:koin-androidx-navigation", version.ref = "koinAndroid" }
-koin-test = { module = "io.insert-koin:koin-test-junit4", version.ref = "koinAndroid" }
+koin-test = { module = "io.insert-koin:koin-test", version.ref = "koinAndroid" }
+koin-test-junit4 = { module = "io.insert-koin:koin-test-junit4", version.ref = "koinAndroid" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
 retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
